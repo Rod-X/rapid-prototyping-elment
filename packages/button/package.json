@@ -1,6 +1,6 @@
 {
   "name": "rodx-button",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rod-ui button",
   "private": false,
   "main": "dist/cjs/index.js",
