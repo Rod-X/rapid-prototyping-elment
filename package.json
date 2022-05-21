@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "author": "",
-  "private": false,
+  "private": true,
   "keywords": [],
   "license": "ISC",
   "workspaces": [
@@ -13,7 +13,9 @@
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lerna": "lerna publish"
+    "lerna": "lerna publish",
+    "build:prod": "cross-env NODE_ENV=production rollup -c",
+    "build:dev": "cross-env NODE_ENV=development rollup -c",
   },
   "main": "index.js",
   "dependencies": {
