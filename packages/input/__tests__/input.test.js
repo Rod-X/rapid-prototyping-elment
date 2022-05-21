@@ -3,11 +3,11 @@ import {
     mount
 } from "@vue/test-utils";
 
-desctipt('rod-input', () => {
+describe('rod-input', () => {
 
     test('input-text', () => {
         const wrapper = mount(input)
-        expect(wrapper.html()).toContain('input typr="text"')
+        expect(wrapper.html()).toContain('input type="text"')
     })
 
     test('input-password',()=>{
@@ -18,15 +18,15 @@ desctipt('rod-input', () => {
         })
         expect(wrapper.html()).toContain('input type="password')
     })
-    
+
     test('input-value',()=>{
         const wrapper = mount(input,{
             propsData:{
-                type:'password',
+                type:'text',
                 value:'myInput'
             }
         })
-        expect(wrapper.html()).toContain('myInput')
+        expect(wrapper.props('value')).toBe('myInput')
     })
 
     test('input-snapshot',()=>{
