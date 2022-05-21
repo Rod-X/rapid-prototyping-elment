@@ -1,6 +1,8 @@
 <template>
   <div>
-    <button @click="handleClick"><slot></slot></button>
+    <button @click="handleClick" class="rod-button">
+      <slot></slot>
+    </button>
   </div>
 </template>
 
@@ -8,7 +10,7 @@
 export default {
   name: 'RodxButton',
   methods: {
-    handleClick (evt) {
+    handleClick(evt) {
       this.$emit('click', evt)
       evt.preventDefault();
     }
@@ -16,6 +18,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+.rod-button {
+  width: 30px;
+}
 </style>
