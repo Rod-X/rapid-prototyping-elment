@@ -12,9 +12,10 @@ yarn test
 <!-- 发版 -->
 yarn publish
 
+<!-- 内嵌storybook可以自定义生成静态页面组件库文档 -->
+build-storybook
 ```
 
-内嵌storybook可以自定义生成静态页面组件库文档
 
 
 
