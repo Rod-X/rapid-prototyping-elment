@@ -1,4 +1,4 @@
-import RodxInput from '../'
+import RodxInput from '../src/input.vue'
 
 export default {
     title: 'RodxInput',

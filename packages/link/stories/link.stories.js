@@ -6,10 +6,12 @@ export default {
 }
 
 export const Link = _ => ({
-  components: { RodxLink },
+  components: {
+    RodxLink
+  },
   template: `
     <div>
-      <rodx-link></rodx-link>
+      <rodx-link href='www.baidu.com' underline>百度</rodx-link>
     </div>
   `
 })
