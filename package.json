@@ -1,9 +1,9 @@
 {
   "name": "rapid-prototyping-elment",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "",
   "author": "",
-  "private": true,
+  "private": false,
   "keywords": [],
   "license": "ISC",
   "workspaces": [
