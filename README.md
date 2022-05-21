@@ -1,3 +1,22 @@
+## 本组件库使用monorepo模式，发布每个组件发布一个npm包
+
+```base
+yarn install
+
+yarn plop
+<!-- 填充组件名 -->
+
+<!-- 发版前先进行测试 -->
+yarn test 
+
+<!-- 发版 -->
+yarn publish
+
+```
+
+
+
+
 ## 安装测试依赖
 
 ```bash
