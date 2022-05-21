@@ -1,13 +1,13 @@
 {
   "name": "rodx-link",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "rod-ui link",
   "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "del": "rimraf dist"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "del": "rimraf dist"
   },
   "keywords": [],
   "author": "913934542@qq.com",
