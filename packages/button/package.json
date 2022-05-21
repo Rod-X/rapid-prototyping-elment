@@ -1,6 +1,6 @@
 {
   "name": "rodx-button",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
@@ -9,6 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
-  "dependencies": {}
+  "license": "MIT"
 }
